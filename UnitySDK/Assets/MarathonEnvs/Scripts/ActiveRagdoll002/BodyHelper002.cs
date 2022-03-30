@@ -14,6 +14,7 @@ public static class BodyHelper002
         LegUpper,
         LegLower,
         Foot,
+        Weapon
     }
 
     [System.Serializable]

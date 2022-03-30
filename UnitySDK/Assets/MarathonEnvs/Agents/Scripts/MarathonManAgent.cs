@@ -40,6 +40,10 @@ public class MarathonManAgent : Agent, IOnTerrainCollision
 				return BodyPartGroup.ArmLower;
 			if (name.Contains("hand"))
 				return BodyPartGroup.Hand;
+			//***********New
+			if (name.Contains("weapon"))
+				return BodyPartGroup.Weapon;
+
 
 			return BodyPartGroup.None;
 		},
