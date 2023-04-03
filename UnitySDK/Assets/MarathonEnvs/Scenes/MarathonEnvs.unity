@@ -380,7 +380,7 @@ MonoBehaviour:
     envIdDefault: MarathonManBackflip-v0
     trainingNumEnvsDefault: 64
     inferenceNumEnvsDefault: 3
-  DebugSkipPopUp: 0
+  DebugSkipPopUp: 1
 --- !u!1 &1715640920
 GameObject:
   m_ObjectHideFlags: 0
